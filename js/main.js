@@ -10,8 +10,8 @@
   function rootPath() {
     // Returns relative path from current page to site root
     const depth = location.pathname.replace(/\/$/, '').split('/').length - 1;
-    if (depth <= 1) return './';
-    return '../'.repeat(depth - 1);
+    if (depth <= 0) return './';
+    return '../'.repeat(depth);
   }
 
   function activeClass(href) {
