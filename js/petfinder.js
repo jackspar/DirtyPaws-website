@@ -25,7 +25,7 @@
       breeds: { primary: 'Domestic Shorthair' },
       gender: 'Female',
       photos: [{ medium: '../../assets/images/cats/cat-01.jpg' }],
-      url: 'https://www.petfinder.com/cat/harmony/CA2823/'
+      url: 'https://www.petfinder.com/member/us/ca/brentwood/dirty-paws-animal-rescue-ca2823/'
     },
     {
       id: 'mock-2',
@@ -34,7 +34,7 @@
       breeds: { primary: 'Domestic Shorthair' },
       gender: 'Male',
       photos: [{ medium: '../../assets/images/cats/cat-02.jpg' }],
-      url: 'https://www.petfinder.com/cat/rhyme/CA2823/'
+      url: 'https://www.petfinder.com/member/us/ca/brentwood/dirty-paws-animal-rescue-ca2823/'
     },
     {
       id: 'mock-3',
@@ -43,7 +43,7 @@
       breeds: { primary: 'Domestic Shorthair' },
       gender: 'Female',
       photos: [{ medium: '../../assets/images/cats/cat-03.jpg' }],
-      url: 'https://www.petfinder.com/cat/cannoli/CA2823/'
+      url: 'https://www.petfinder.com/member/us/ca/brentwood/dirty-paws-animal-rescue-ca2823/'
     },
     {
       id: 'mock-4',
@@ -52,7 +52,7 @@
       breeds: { primary: 'Tabby' },
       gender: 'Male',
       photos: [{ medium: '../../assets/images/cats/cat-04.jpg' }],
-      url: 'https://www.petfinder.com/cat/scrambles/CA2823/'
+      url: 'https://www.petfinder.com/member/us/ca/brentwood/dirty-paws-animal-rescue-ca2823/'
     },
     {
       id: 'mock-5',
@@ -61,7 +61,7 @@
       breeds: { primary: 'Domestic Longhair' },
       gender: 'Female',
       photos: [{ medium: '../../assets/images/cats/cat-05.jpg' }],
-      url: 'https://www.petfinder.com/cat/season-salt/CA2823/'
+      url: 'https://www.petfinder.com/member/us/ca/brentwood/dirty-paws-animal-rescue-ca2823/'
     },
     {
       id: 'mock-6',
@@ -70,7 +70,7 @@
       breeds: { primary: 'Domestic Shorthair' },
       gender: 'Female',
       photos: [{ medium: '../../assets/images/cats/cat-06.jpg' }],
-      url: 'https://www.petfinder.com/cat/mochi/CA2823/'
+      url: 'https://www.petfinder.com/member/us/ca/brentwood/dirty-paws-animal-rescue-ca2823/'
     }
   ];
 
@@ -94,7 +94,7 @@
       var card = document.createElement('div');
       card.className = 'cat-card';
       card.innerHTML =
-        '<img class="cat-card-img" src="' + photo + '" alt="' + cat.name + '" loading="lazy">' +
+        '<div class="cat-card-img"><img src="' + photo + '" alt="' + cat.name + '" loading="lazy"></div>' +
         '<div class="cat-card-body">' +
           '<div class="cat-card-name">' + cat.name + '</div>' +
           '<div class="cat-card-meta">' + meta + '</div>' +
