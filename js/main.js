@@ -8,8 +8,10 @@
   // ---- Helpers ----
 
   function rootPath() {
-    // Returns relative path from current page to site root
-    const depth = location.pathname.replace(/\/$/, '').split('/').length - 1;
+    // Strip GitHub Pages repo prefix if present, then calculate depth
+    const REPO = '/DirtyPaws-website';
+    const path = location.pathname.replace(REPO, '').replace(/\/$/, '');
+    const depth = path.split('/').length - 1;
     if (depth <= 0) return './';
     return '../'.repeat(depth);
   }
