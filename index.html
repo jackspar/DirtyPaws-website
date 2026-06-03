@@ -3,77 +3,153 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
   <title>Dirty Paws Animal Rescue — Cat Adoption in Contra Costa County</title>
-  <meta name="description" content="Dirty Paws Animal Rescue provides a better life for adoptable cats in Contra Costa County through rescue and spay & neuter programs. See available cats and adopt today.">
+  <meta name="description" content="Dirty Paws Animal Rescue gives adoptable cats a better life in Contra Costa County and the East Bay. Meet our adoptable cats and start your adoption today.">
   <meta property="og:title" content="Dirty Paws Animal Rescue">
-  <meta property="og:description" content="Adopt a cat in Contra Costa County. Browse available cats and find your perfect match.">
-  <meta property="og:image" content="./assets/logos/logo-main.png">
+  <meta property="og:description" content="Giving adoptable cats a better life in Contra Costa County and the East Bay. Meet our cats and adopt today.">
+  <meta property="og:image" content="./assets/images/cats/cat-01.jpg">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/png" href="./assets/logos/logo-main.png">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/new-site.css">
 </head>
 <body>
 
   <header id="site-header"></header>
 
-  <!-- Hero Slideshow -->
-  <section class="slideshow" aria-label="Cat photos">
-    <div class="slideshow-slide"><img src="./assets/images/cats/cat-01.jpg" alt="Cat available for adoption"></div>
-    <div class="slideshow-slide"><img src="./assets/images/cats/cat-02.jpg" alt="Cat available for adoption"></div>
-    <div class="slideshow-slide"><img src="./assets/images/cats/cat-03.jpg" alt="Cat available for adoption"></div>
-    <div class="slideshow-slide"><img src="./assets/images/cats/cat-04.jpg" alt="Cat available for adoption"></div>
-    <div class="slideshow-slide"><img src="./assets/images/cats/cat-05.jpg" alt="Cat available for adoption"></div>
-    <div class="slideshow-slide"><img src="./assets/images/cats/cat-06.jpg" alt="Cat available for adoption"></div>
-    <div class="slideshow-overlay"></div>
-    <div class="slideshow-dots"></div>
-  </section>
-
-  <!-- Who We Are -->
-  <section class="who-we-are">
-    <div class="section-label">About Us</div>
-    <h2>Dirty Paws Animal Rescue</h2>
-    <p>We provide a better life for adoptable companion animals in Contra Costa County through rescue and spay &amp; neuter programs. Every cat deserves a loving home — and we're here to make that happen.</p>
-    <a href="./about/" class="btn btn-primary">Read More</a>
-  </section>
-
-  <!-- Quick Links -->
-  <section class="quick-links">
-    <h2>How You Can Help</h2>
-    <div class="quick-links-grid">
-      <a href="./cats/available/" class="quick-card">
-        <img src="./assets/logos/icon-about.png" alt="">
-        <h3>Adopt a Cat</h3>
-        <p>Browse available cats and find your perfect match. Each cat has a story — come find yours.</p>
-      </a>
-      <a href="./volunteers/" class="quick-card">
-        <img src="./assets/logos/icon-volunteers.png" alt="">
-        <h3>Volunteer</h3>
-        <p>Foster, transport, attend events, or help with admin. Every hour makes a difference.</p>
-      </a>
-      <a href="./donate/" class="quick-card">
-        <img src="./assets/logos/icon-donate.png" alt="">
-        <h3>Donate</h3>
-        <p>Your donation funds food, medical care, and spay &amp; neuter programs for cats in need.</p>
-      </a>
+  <!-- Hero -->
+  <section class="hero">
+    <img class="hero-bg hero-slide" src="./assets/images/cats/cat-01.jpg" alt="A rescued cat looking for a home">
+    <img class="hero-bg hero-slide" src="./assets/images/cats/cat-07.jpg" alt="A rescued cat available for adoption">
+    <img class="hero-bg hero-slide" src="./assets/images/cats/cat-12.jpg" alt="A rescued cat ready for a loving family">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Every Cat Deserves<br>A Home of Their Own</h1>
+      <p>Dirty Paws Animal Rescue gives adoptable cats a better life across Contra Costa County and the East Bay.</p>
+      <div class="btn-row">
+        <a href="./cats/" class="btn btn-primary">View Our Adoptable Cats</a>
+        <a href="./donate/" class="btn btn-outline" style="color:#fff;border-color:#fff;">Support the Rescue</a>
+      </div>
     </div>
   </section>
 
-  <!-- Next Event Banner — hidden when no upcoming event -->
-  <!-- To update: swap poster src, update date/location text -->
-  <!-- Current state: no upcoming event (last was Jan 10, 2026) -->
-  <!-- Uncomment this section when a new event is scheduled:
-  <section class="event-banner">
-    <h2>Upcoming Adoption Event</h2>
-    <div class="event-banner-inner">
-      <img src="./assets/events/2026/poster-2026-XX-XX-venue.jpg" alt="Upcoming event poster">
-      <p class="event-banner-meta"><strong>Saturday, Month DD, 2026</strong> · PetSmart Walnut Creek</p>
-      <a href="./events/" class="btn btn-cta">See All Events →</a>
+  <!-- Impact stats (placeholders — NEEDS-KATHLEEN) -->
+  <section class="section section-white">
+    <div class="container">
+      <div class="stats">
+        <div class="stat"><div class="num">Cats</div><div class="label">Rescued &amp; Rehomed</div></div>
+        <div class="stat"><div class="num">Spay &amp; Neuter</div><div class="label">Reducing Overpopulation</div></div>
+        <div class="stat"><div class="num">East Bay</div><div class="label">Contra Costa County</div></div>
+      </div>
+      <p class="stat-note">Our impact numbers are coming soon.</p>
     </div>
   </section>
-  -->
+
+  <!-- Who we are -->
+  <section class="section section-cream">
+    <div class="container narrow center">
+      <div class="section-label">Who We Are</div>
+      <h2>A Better Life for Adoptable Cats</h2>
+      <p class="lede" style="margin-left:auto;margin-right:auto;">Dirty Paws Animal Rescue exists to provide a better life for adoptable companion animals and to assist the public in the effort to limit the overpopulation of these animals through spay &amp; neuter programs.</p>
+      <a href="./about/" class="btn btn-outline">Read Our Story</a>
+    </div>
+  </section>
+
+  <!-- Adoptable cats CTA -->
+  <section class="section section-white">
+    <div class="container center">
+      <div class="section-label">Meet Your Match</div>
+      <h2>Adoptable Cats</h2>
+      <p class="narrow" style="margin-left:auto;margin-right:auto;">These loving cats would love a home. Browse our adoptable cats and find the one who is right for you.</p>
+      <a href="./cats/" class="btn btn-primary">View Our Adoptable Cats</a>
+    </div>
+  </section>
+
+  <!-- Upcoming event -->
+  <section class="section section-cream-2">
+    <div class="container">
+      <div class="section-label center">Upcoming Event</div>
+      <h2 class="center">Cat Adoptions at PetSmart Walnut Creek</h2>
+      <div class="event-feature">
+        <img src="./img/DirtyPaws-Event-2026-06-06.png" alt="Dirty Paws Animal Rescue cat adoption event flyer for June 6, 2026">
+        <div class="event-meta">
+          <strong>Saturday, June 6, 2026</strong>
+          11:00 am – 3:00 pm<br>
+          PetSmart, 2891 Ygnacio Valley Road<br>
+          Walnut Creek, CA
+          <div class="btn-row" style="margin-top:18px;">
+            <a href="./events/" class="btn btn-outline">See All Events</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to adopt 3-step -->
+  <section class="section section-white">
+    <div class="container">
+      <div class="section-label center">How to Adopt</div>
+      <h2 class="center">Three Simple Steps</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Meet Our Cats</h3>
+          <p>Browse our adoptable cats online or visit us at an adoption event.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Submit an Application</h3>
+          <p>Fill out our quick adoption application so we can find the right fit.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Schedule a Meet</h3>
+          <p>Come meet your match in person and take your new family member home.</p>
+        </div>
+      </div>
+      <div class="center" style="margin-top:30px;">
+        <a href="./adopt/" class="btn btn-primary">Start the Adoption Process</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick links -->
+  <section class="section section-cream">
+    <div class="container">
+      <h2 class="center">How You Can Help</h2>
+      <div class="quick-links-grid">
+        <a href="./cats/" class="quick-card">
+          <img src="./assets/logos/icon-about.png" alt="">
+          <h3>Adopt</h3>
+          <p>Give a rescued cat a loving, permanent home.</p>
+        </a>
+        <a href="./volunteers/" class="quick-card">
+          <img src="./assets/logos/icon-volunteers.png" alt="">
+          <h3>Volunteer</h3>
+          <p>Lend a hand at events and help cats find homes.</p>
+        </a>
+        <a href="./donate/" class="quick-card">
+          <img src="./assets/logos/icon-donate.png" alt="">
+          <h3>Donate</h3>
+          <p>Fund food, medical care, and spay &amp; neuter programs.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact strip -->
+  <section class="strip">
+    <div class="container">
+      <h2>Have a Question?</h2>
+      <p>Reach out any time — we would love to hear from you.</p>
+      <a href="mailto:dirtypawsanimalrescue@gmail.com" class="btn btn-outline">Email Us</a>
+    </div>
+  </section>
 
   <footer id="site-footer"></footer>
-
-  <script src="./js/main.js"></script>
+  <script src="./js/new-site.js"></script>
 </body>
 </html>
