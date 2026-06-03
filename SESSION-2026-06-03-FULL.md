@@ -57,3 +57,6 @@ Scatter inventory found on the machine (2026-06-03 scan):
 - **Verified live from outside within seconds** (curl: date present on /Events/) — first item of R02 Approval-1 territory done early as routine webmaster content update
 - Flyer PNG staged at `~/Downloads/DirtyPaws-Event-2026-06-06.png` (exported from Canva original) — optional 2-min add later (Picture element → upload → Publish); becomes moot post-WordPress
 - STILL OPEN on live site: the two form-link `/edit`→`/viewform` fixes (highest impact; 2 pastes in builder) — do before Saturday's event traffic if possible
+
+## 8. FOUND: Kathleen's reference website (the design model)
+**https://www.streetcatsclub.org/barncatprogram** — the site Kathleen texted long ago as the model for the new website (John located it 2026-06-03). Wix-built. Two readings to confirm with her: (a) overall site style/structure as the design model, (b) specifically a BARN CAT PROGRAM page/program like theirs (working-cat placement). Design analysis appended below when agent completes. The April prototype design (charcoal + rainbow, card grid) should be reconciled against this reference BEFORE the WordPress build.
