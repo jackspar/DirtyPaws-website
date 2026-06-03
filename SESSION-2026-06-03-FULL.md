@@ -51,3 +51,9 @@ Scatter inventory found on the machine (2026-06-03 scan):
 3. On Approval 2: API key restriction + TOTP 2FA + account contact
 4. On Approval 3: subdomain + MultiPHP 8.x + `wp core download/config/install` → migrate April prototype → Kathleen review → DNS/docroot cutover
 5. Separately: Canva brand kit/templates when John triggers it
+
+## 7. LIVE FIX EXECUTED (2026-06-03 evening) — Events page
+- John updated the Events headline in the builder: "Saturday, Feb. 21th, 2025" → **"Saturday, June 6, 2026"** (PetSmart/Ygnacio line unchanged) and PUBLISHED
+- **Verified live from outside within seconds** (curl: date present on /Events/) — first item of R02 Approval-1 territory done early as routine webmaster content update
+- Flyer PNG staged at `~/Downloads/DirtyPaws-Event-2026-06-06.png` (exported from Canva original) — optional 2-min add later (Picture element → upload → Publish); becomes moot post-WordPress
+- STILL OPEN on live site: the two form-link `/edit`→`/viewform` fixes (highest impact; 2 pastes in builder) — do before Saturday's event traffic if possible
