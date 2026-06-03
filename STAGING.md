@@ -11,3 +11,9 @@
 | DNS note | Subdomain DNS auto-added by cPanel; allow propagation time after creation |
 
 **Plan:** static streetcats-model build (this branch) deploys here for Kathleen's review → after design approval, WordPress port (Approval 3 / cutover still gated on Kathleen).
+
+## DEPLOYED — 2026-06-03 evening
+- Full streetcats-model build (branch `redesign-streetcats`, commit fd0bf6e) deployed to staging docroot
+- **Verified from outside: all 8 pages HTTP 200** · homepage title "Dirty Paws Animal Rescue — Cat Adoption in Contra Costa County" · noindex confirmed · robots.txt Disallow-all
+- DNS: authoritative record live (dns1.namecheaphosting.com → 162.213.253.39); global propagation within minutes of deploy
+- **Review URL for John (and later Kathleen): http://new.dirtypawsanimalrescue.org** (HTTPS pending AutoSSL's next run)
