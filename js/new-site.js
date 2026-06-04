@@ -44,7 +44,7 @@
         '<button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>' +
         '<ul class="nav-links" id="nav-links">' +
           '<li><a href="' + r + 'events/" class="' + isActive('events') + '">Events</a></li>' +
-          '<li><a href="' + r + 'cats/" class="' + isActive('cats') + '">Adopt</a></li>' +
+          '<li><a href="' + r + 'cats/" class="' + isActive('cats') + '">Our Cats</a></li>' +
           '<li><a href="' + r + 'adopt/" class="' + isActive('adopt') + '">How to Adopt</a></li>' +
           '<li><a href="' + r + 'volunteers/" class="' + isActive('volunteers') + '">Volunteer</a></li>' +
           '<li><a href="' + r + 'resources/" class="' + isActive('resources') + '">Resources</a></li>' +
