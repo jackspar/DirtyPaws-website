@@ -118,6 +118,7 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
   padding: 0;
 }
 .nav-links a {
+  white-space: nowrap;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   color: #fef6ed;
