@@ -366,3 +366,8 @@ Items the streetcats model site structure will need that Dirty Paws content does
 | https://docs.google.com/forms/d/1EzqmO-zkXfGAVnJ_-6VzegjaZ1VPWC6xxb6UUtUAW10/viewform | Volunteers — volunteer form | Corrected from /edit |
 | https://www.petfinder.com/member/us/ca/brentwood/dirty-paws-animal-rescue-ca2823/ | Available Cats (via API, org ID CA2823) | Active |
 | mailto:dirtypawsanimalrescue@gmail.com | Footer + Available Cats | Active |
+
+
+## CANONICAL MISSION TEXT (provided by John, 2026-06-03 — supersedes live-site short version)
+Dirty Paws Animal Rescue is a small 501(c)(3) nonprofit animal rescue organization based in Contra Costa County. Dirty Paws Animal Rescue exists to provide a better life for adoptable companion animals who have been abandoned at local shelters. We run a small home-based foster program that focuses on quality of care. We also strive to assist the public, along with other local nonprofits, in the effort to limit the overpopulation of these animals through education and spay & neuter programs. We believe that no animal should endure the pain and suffering of a life of abandonment and neglect, which we believe starts with providing resources and education for responsible pet ownership and creating accessible preventative care such as spay & neuter programs.
+FACTS UNLOCKED: 501(c)(3) status · home-based foster program (quality-of-care focus) · serves cats abandoned at local shelters · education programs · collaboration with other local nonprofits. (Resolves former NEEDS-KATHLEEN items: foster program existence, org structure.)
