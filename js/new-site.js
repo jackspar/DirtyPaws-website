@@ -69,7 +69,7 @@
     el.innerHTML =
       '<div class="footer-grid">' +
         '<div class="footer-col footer-brand">' +
-          '<img src="' + r + 'assets/logos/logo-main.png" alt="Dirty Paws Animal Rescue">' +
+          '<img src="' + r + 'assets/logos/logo-dark.png" alt="Dirty Paws Animal Rescue">' +
           '<p>Giving adoptable cats a better life in Contra Costa County and the East Bay.</p>' +
           '<div class="footer-social">' +
             '<a href="' + IG + '" target="_blank" rel="noopener" aria-label="Instagram">' + IG_SVG + '</a>' +
