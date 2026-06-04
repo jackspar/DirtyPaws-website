@@ -40,7 +40,7 @@
     el.className = 'site-header';
     el.innerHTML =
       '<div class="header-inner">' +
-        '<a href="' + r + '" class="header-logo"><img src="' + r + 'assets/logos/logo-main.png" alt="Dirty Paws Animal Rescue home"></a>' +
+        '<a href="' + r + '" class="header-logo"><img src="' + r + 'assets/logos/logo-dark.png" alt="Dirty Paws Animal Rescue home"></a>' +
         '<button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>' +
         '<ul class="nav-links" id="nav-links">' +
           '<li><a href="' + r + '" class="' + isActive('home') + '">Home</a></li>' +

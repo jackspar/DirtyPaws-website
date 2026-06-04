@@ -6,8 +6,13 @@
 
 /* ---- Tokens ---- */
 :root {
-  --orange:       #ff8044;
-  --orange-deep:  #f97425;
+  --orange:       #f07830;   /* from logo heart */
+  --orange-deep:  #d8600f;
+  --pink:         #f03090;   /* from logo heart */
+  --pink-deep:    #d81b7a;
+  --yellow:       #f0d830;   /* from logo heart */
+  --green:        #30a878;   /* from logo heart */
+  --blue:         #30a8d8;   /* from logo heart */
   --cream:        #fef6ed;
   --cream-2:      #fef3e5;
   --white:        #ffffff;
@@ -90,7 +95,7 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(17, 17, 17, 0.96);
+  background: #000;
   backdrop-filter: blur(6px);
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
@@ -119,9 +124,9 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
   text-decoration: none;
   font-size: 0.98rem;
 }
-.nav-links a:hover, .nav-links a.active { color: var(--orange); }
+.nav-links a:hover, .nav-links a.active { color: var(--pink); }
 .btn-donate {
-  background: var(--orange);
+  background: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
   color: #fff !important;
   padding: 9px 22px;
   border-radius: 40px;
@@ -432,7 +437,7 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
-    background: rgba(17, 17, 17, 0.98);
+    background: #000;
     padding: 16px 24px;
     border-bottom: 1px solid rgba(255,255,255,0.08);
   }
@@ -446,3 +451,8 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
   .footer-grid { grid-template-columns: 1fr; }
   .section { padding: 52px 0; }
 }
+
+/* logo-rainbow step numbers */
+.step:nth-child(1) .step-num { background: var(--pink); }
+.step:nth-child(2) .step-num { background: var(--orange); }
+.step:nth-child(3) .step-num { background: var(--green); }
