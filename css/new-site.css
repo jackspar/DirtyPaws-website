@@ -90,9 +90,9 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(254, 246, 237, 0.96);
+  background: rgba(17, 17, 17, 0.96);
   backdrop-filter: blur(6px);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 .header-inner {
   display: flex;
@@ -115,11 +115,11 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
 .nav-links a {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  color: var(--ink);
+  color: #fef6ed;
   text-decoration: none;
   font-size: 0.98rem;
 }
-.nav-links a:hover, .nav-links a.active { color: var(--orange-deep); }
+.nav-links a:hover, .nav-links a.active { color: var(--orange); }
 .btn-donate {
   background: var(--orange);
   color: #fff !important;
@@ -140,7 +140,7 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
   padding: 6px;
 }
 .hamburger span {
-  width: 26px; height: 3px; background: var(--ink); border-radius: 2px;
+  width: 26px; height: 3px; background: #fef6ed; border-radius: 2px;
 }
 
 /* ---- Hero ---- */
@@ -432,9 +432,9 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
-    background: var(--cream);
+    background: rgba(17, 17, 17, 0.98);
     padding: 16px 24px;
-    border-bottom: 1px solid var(--line);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
   }
   .nav-links.open { display: flex; }
   .hamburger { display: flex; }
