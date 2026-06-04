@@ -457,3 +457,25 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
 .step:nth-child(1) .step-num { background: var(--pink); }
 .step:nth-child(2) .step-num { background: var(--orange); }
 .step:nth-child(3) .step-num { background: var(--green); }
+
+/* ---- Petfinder live-feed cards (mockup; becomes API-driven) ---- */
+.pf-pending {
+  display: flex; align-items: center; gap: 12px;
+  background: #fff; border: 2px dashed var(--blue); border-radius: var(--radius);
+  padding: 14px 20px; margin: 0 auto 30px; max-width: 720px;
+  font-family: "Nunito Sans", sans-serif; font-size: 0.95rem; color: var(--ink-soft);
+}
+.pf-pending .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--blue); flex: 0 0 auto; animation: pfpulse 1.6s infinite; }
+@keyframes pfpulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+.pf-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; margin-bottom: 36px; }
+.pf-card { background: #fff; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.pf-card img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+.pf-card-body { padding: 18px 20px 22px; display: flex; flex-direction: column; gap: 10px; }
+.pf-name { font-family: "Anton", sans-serif; font-size: 1.5rem; letter-spacing: 0.5px; text-transform: uppercase; color: var(--ink); }
+.pf-name .pending-slot { color: #b9aa9a; }
+.pf-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.pf-chip { font-family: "Nunito Sans", sans-serif; font-size: 0.78rem; font-weight: 700; padding: 3px 10px; border-radius: 20px; background: var(--cream-2); color: var(--ink-soft); }
+.pf-bio { font-size: 0.95rem; color: var(--ink-soft); line-height: 1.5; min-height: 2.9em; }
+.pf-bio.pending-slot { font-style: italic; color: #b9aa9a; }
+.pf-card .btn { margin-top: auto; text-align: center; }
+@media (max-width: 860px) { .pf-grid { grid-template-columns: 1fr; } }
