@@ -400,7 +400,7 @@ p { margin: 0 0 1.1em; color: var(--ink-soft); }
 .footer-col li { margin-bottom: 9px; }
 .footer-col a { color: #e9ddd0; text-decoration: none; font-size: 0.96rem; }
 .footer-col a:hover { color: var(--orange); }
-.footer-brand img { height: 60px; margin-bottom: 14px; filter: brightness(0) invert(1); }
+.footer-brand img { height: 84px; margin-bottom: 14px; }
 .footer-brand p { color: #c9bcab; font-size: 0.92rem; }
 .footer-social { display: flex; gap: 14px; margin-top: 6px; }
 .footer-social a { color: #e9ddd0; }
