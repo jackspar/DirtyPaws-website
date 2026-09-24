@@ -39,24 +39,24 @@ Like all of our other cats/kittens Saffron has been spayed, FIV/FELV tested nega
     },
     {
       id: 'harmony-rhyme',
-      name: 'Harmony & Rhyme',
+      name: 'Rhyme & Harmony',
       age: 'Adults',
       breeds: { primary: 'Siamese & Tuxedo — bonded pair' },
       gender: 'Male & Female',
-      bio: `Harmony and Rhyme are a bonded brother-and-sister pair, and they must be adopted together. They've been with us almost their entire lives — originally adopted as kittens but returned over a year later in rough shape. It's taken a while to bring them back to health, physically and mentally, and happily they're both in tip-top shape now and ready to try again for a forever family together.
+      bio: `Rhyme and Harmony are a bonded brother-and-sister pair, and they must be adopted together. They've been with us almost their entire lives — originally adopted as kittens but returned over a year later in rough shape. It's taken a while to bring them back to health, physically and mentally, and happily they're both in tip-top shape now and ready to try again for a forever family together.
 
-Harmony, with his strong "Jay Leno" jawline, desperately wants to be loved — once he knows you're safe, he adores being petted. Rhyme was described by a foster as "aggressively affectionate" — two-handed pets are best!
+Rhyme was described by a foster as "aggressively affectionate" — two-handed pets are best! Harmony, with his strong "Jay Leno" jawline, desperately wants to be loved — once he knows you're safe, he adores being petted.
 
 Both are spayed/neutered, vaccinated, FIV/FELV negative, dewormed, flea treated, and microchipped. They've each had extensive dental surgery but eat wet and dry food like champs, and they love Temptation treats and Churu. Because of past experience they'd do best in a dog-free (or very-small-dog) home, and do well with pet-savvy kids.
 
-Because of their strong bond, Harmony and Rhyme are only available for adoption together.`,
+Because of their strong bond, Rhyme and Harmony are only available for adoption together.`,
       photos: [
-        { medium: '../assets/images/petfinder/harmony/harmony-1.jpg' },
         { medium: '../assets/images/petfinder/rhyme/rhyme-1.jpg' },
-        { medium: '../assets/images/petfinder/harmony/harmony-2.jpg' },
+        { medium: '../assets/images/petfinder/harmony/harmony-1.jpg' },
         { medium: '../assets/images/petfinder/rhyme/rhyme-2.jpg' },
-        { medium: '../assets/images/petfinder/harmony/harmony-3.jpg' },
+        { medium: '../assets/images/petfinder/harmony/harmony-2.jpg' },
         { medium: '../assets/images/petfinder/rhyme/rhyme-3.jpg' },
+        { medium: '../assets/images/petfinder/harmony/harmony-3.jpg' },
         { medium: '../assets/images/petfinder/rhyme/rhyme-4.jpg' },
         { medium: '../assets/images/petfinder/rhyme/rhyme-5.jpg' }
       ],
@@ -220,7 +220,7 @@ Zsa Zsa is spayed, vaccinated, FIV/FELV neg, dewormed, flea treated and microchi
 
       var bondedNote = '';
       if (cat.bondedPair) {
-        bondedNote = '<p class="pf-bio" style="font-weight:700;color:var(--blue);">Bonded pair — Harmony &amp; Rhyme must be adopted together.</p>';
+        bondedNote = '<p class="pf-bio" style="font-weight:700;color:var(--blue);">Bonded pair — Rhyme &amp; Harmony must be adopted together.</p>';
       } else if (cat.bondedWith) {
         bondedNote = '<p class="pf-bio" style="font-weight:700;color:var(--blue);">Bonded pair — must be adopted together with ' + escapeHtml(cat.bondedWith) + '.</p>';
       }
