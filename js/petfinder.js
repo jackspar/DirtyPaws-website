@@ -38,25 +38,30 @@ Like all of our other cats/kittens Saffron has been spayed, FIV/FELV tested nega
       url: 'https://www.petfinder.com/cat/saffron-cbb4d5db-0997-4e2b-a0c5-6f7aa402bfd2/ca/brentwood/dirty-paws-animal-rescue-ca2823/details/'
     },
     {
-      id: 'harmony',
-      name: 'Harmony',
-      age: 'Adult',
-      breeds: { primary: 'Siamese' },
-      gender: 'Male',
-      bio: `This handsome boy is Harmony. He, along with his sister Rhyme, has been with us almost their entire lives. They were originally adopted as kittens but returned over a year later. It's taken a while to bring him (and her) back to health physically and mentally. Happily they're both in tip top shape and ready to try again for a forever family together.
+      id: 'harmony-rhyme',
+      name: 'Harmony & Rhyme',
+      age: 'Adults',
+      breeds: { primary: 'Siamese & Tuxedo — bonded pair' },
+      gender: 'Male & Female',
+      bio: `Harmony and Rhyme are a bonded brother-and-sister pair, and they must be adopted together. They've been with us almost their entire lives — originally adopted as kittens but returned over a year later in rough shape. It's taken a while to bring them back to health, physically and mentally, and happily they're both in tip-top shape now and ready to try again for a forever family together.
 
-Harmony, with his strong Jay Leno jawline, desperately wants to be loved. Once he knows you're safe he loves to be petted and loved on.
+Harmony, with his strong "Jay Leno" jawline, desperately wants to be loved — once he knows you're safe, he adores being petted. Rhyme was described by a foster as "aggressively affectionate" — two-handed pets are best!
 
-Like all of our other cats Harmony has been neutered, vaccinated, FIV/FELV tested neg, dewormed, flea treated and microchipped.
+Both are spayed/neutered, vaccinated, FIV/FELV negative, dewormed, flea treated, and microchipped. They've each had extensive dental surgery but eat wet and dry food like champs, and they love Temptation treats and Churu. Because of past experience they'd do best in a dog-free (or very-small-dog) home, and do well with pet-savvy kids.
 
-Because of their strong bond, Harmony and Rhyme need to be adopted together.`,
+Because of their strong bond, Harmony and Rhyme are only available for adoption together.`,
       photos: [
         { medium: '../assets/images/petfinder/harmony/harmony-1.jpg' },
+        { medium: '../assets/images/petfinder/rhyme/rhyme-1.jpg' },
         { medium: '../assets/images/petfinder/harmony/harmony-2.jpg' },
-        { medium: '../assets/images/petfinder/harmony/harmony-3.jpg' }
+        { medium: '../assets/images/petfinder/rhyme/rhyme-2.jpg' },
+        { medium: '../assets/images/petfinder/harmony/harmony-3.jpg' },
+        { medium: '../assets/images/petfinder/rhyme/rhyme-3.jpg' },
+        { medium: '../assets/images/petfinder/rhyme/rhyme-4.jpg' },
+        { medium: '../assets/images/petfinder/rhyme/rhyme-5.jpg' }
       ],
-      url: 'https://www.petfinder.com/cat/harmony-0661e6a4-601f-4fae-b947-0909c505b203/ca/brentwood/dirty-paws-animal-rescue-ca2823/details/',
-      bondedWith: 'Rhyme'
+      url: 'https://www.petfinder.com/cat/rhyme-e9294b8c-b1a3-4be1-a741-9aad3480afe9/ca/brentwood/dirty-paws-animal-rescue-ca2823/details/',
+      bondedPair: true
     },
     {
       id: 'onion-salt',
@@ -102,31 +107,6 @@ Lily has been spayed, flea treated, dewormed, vaccinated, microchipped and teste
         { medium: '../assets/images/petfinder/lily/lily-5.jpg' }
       ],
       url: 'https://www.petfinder.com/cat/lily-e077c58b-bf6b-400c-aeb3-0f92ac92cd73/ca/brentwood/dirty-paws-animal-rescue-ca2823/details/'
-    },
-    {
-      id: 'rhyme',
-      name: 'Rhyme',
-      age: 'Adult',
-      breeds: { primary: 'Tuxedo' },
-      gender: 'Female',
-      bio: `A heartfelt call for a Unicorn adopter. Rhyme and her brother Harmony are still looking for their forever home. This pair had originally been adopted as kittens and returned to us in deplorable condition a year later. We are grateful they were returned and not dumped somewhere and it's taken a while for them to get their health and hair back but they are ready now for their forever homes.
-
-Their original short term foster described them as aggressively affectionate!
-
-They are spay/neutered, vaccinated, dewormed, flea treated, FIV/FELV negative and microchipped. Due to past experience they would do best in a dog free (or at least very small dog) home and we think would do well with a child who is pet/cat savvy.
-
-Note that they have both had extensive dental surgery but eat wet and dry food like champs! They adore Temptation treats and Churu is a particular favorite!
-
-While they don't love adoption events we have been bringing them to some and will happily bring them if you'd like to come meet them at one!`,
-      photos: [
-        { medium: '../assets/images/petfinder/rhyme/rhyme-1.jpg' },
-        { medium: '../assets/images/petfinder/rhyme/rhyme-2.jpg' },
-        { medium: '../assets/images/petfinder/rhyme/rhyme-3.jpg' },
-        { medium: '../assets/images/petfinder/rhyme/rhyme-4.jpg' },
-        { medium: '../assets/images/petfinder/rhyme/rhyme-5.jpg' }
-      ],
-      url: 'https://www.petfinder.com/cat/rhyme-e9294b8c-b1a3-4be1-a741-9aad3480afe9/ca/brentwood/dirty-paws-animal-rescue-ca2823/details/',
-      bondedWith: 'Harmony'
     },
     {
       id: 'cheese-litter',
@@ -239,7 +219,9 @@ Zsa Zsa is spayed, vaccinated, FIV/FELV neg, dewormed, flea treated and microchi
         .join('');
 
       var bondedNote = '';
-      if (cat.bondedWith) {
+      if (cat.bondedPair) {
+        bondedNote = '<p class="pf-bio" style="font-weight:700;color:var(--blue);">Bonded pair — Harmony &amp; Rhyme must be adopted together.</p>';
+      } else if (cat.bondedWith) {
         bondedNote = '<p class="pf-bio" style="font-weight:700;color:var(--blue);">Bonded pair — must be adopted together with ' + escapeHtml(cat.bondedWith) + '.</p>';
       }
 
